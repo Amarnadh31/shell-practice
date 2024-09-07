@@ -2,4 +2,4 @@
 
 #first script in shell script
 
-echo " hello world"
+echo " hello world in script with shell scripting"
