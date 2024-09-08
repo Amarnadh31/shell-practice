@@ -2,8 +2,8 @@
 
 #creating script for username and password
 
-echo " Enter user name :"
+echo " Enter username :"
 
-read username
+read -s username
 
 echo " entered username is : $username"
