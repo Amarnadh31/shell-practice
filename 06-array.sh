@@ -2,5 +2,5 @@
 
 fruits=("mango" "banana" "grapes" "sapota")
 
-echo " first fruit of the list is: ${fruit[0]}"
-echoo " last fruit of the list is: ${fruit[4]}"
+echo " first fruit of the list is: ${fruits[0]}"
+echo " last fruit of the list is: ${fruits[4]}"
