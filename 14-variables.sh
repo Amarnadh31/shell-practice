@@ -1,4 +1,5 @@
-echo "enter your username: " read USERNAME
+echo "enter your username: " 
+read USERNAME
 
 echo " username is $USERNAME"
 
