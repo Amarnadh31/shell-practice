@@ -5,5 +5,5 @@ num2=$2
 
 sum=$num1+$num2
 
-echo "sume of ${num1} and ${num2} is ${sum}
+echo "sume of ${num1} and ${num2} is ${sum}"
 
