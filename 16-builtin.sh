@@ -7,7 +7,8 @@ sum=$(($num1+$num2))
 
 echo "sum of $num1 and $num2 is ${sum}"
 
-echo "total variables $#"
-echo "aruguments passed to the script $@"
+echo "total variables $@"
+echo "aruguments passed to the script $#"
 echo "present process $!"
 echo " previous process $*"
+echo "script name $0"
