@@ -1,8 +1,8 @@
 echo "hello bro"
 
 
-var=23
-var1=amar
+var=$2
+var1=$2
 
 echo " $var1 how old are you, i'm $var" 
 
