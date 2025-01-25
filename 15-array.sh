@@ -1,6 +1,6 @@
 #!/bin/bash
 
-heros= ( "aa", "mahesh", "tarak" )
+heros=( "aa", "mahesh", "tarak" )
 
 echo "first hero name ${heros[0]}"
 echo "second hero name ${hero[2]}"
