@@ -1,10 +1,6 @@
-echo "hello bro"
+echo "enter your username: " read USERNAME
 
-
-var=$2
-var1=$1
-
-echo " $var1 how old are you, i'm $var" 
+echo " username is $USERNAME"
 
 
 
