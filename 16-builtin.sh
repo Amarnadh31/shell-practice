@@ -13,4 +13,4 @@ echo "present process $$"
 
 echo "script name $0"
 sleep 30
-echo " previous process $!"
+echo "previous process $!"
