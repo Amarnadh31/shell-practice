@@ -12,5 +12,5 @@ echo "aruguments passed to the script $#"
 echo "present process $$"
 
 echo "script name $0"
-sleep 30
+sleep 30 &
 echo "previous process $!"
