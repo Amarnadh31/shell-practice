@@ -1,3 +1,3 @@
 #!/bin/bash
 
-DATE= "$(date +%Y-%m-%d-%T)"
+DATE= $(date +%Y-%m-%d-%T)
