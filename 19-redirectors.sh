@@ -33,9 +33,8 @@ VALIDATE(){
 
 CHECK_ROOT
 
-read packagename
 
-for package in $packagename
+for package in $0
 do
     dnf installed $package
     if [ $? -ne 0 ]
