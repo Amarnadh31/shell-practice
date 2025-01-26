@@ -21,3 +21,29 @@ CHECK_ROOT(){
         exit 1
     fi
 }
+
+VALIDATE(){
+    if [ $1 -ne 0 ]
+    then
+        echo -e "$2 is ...$R FAILED $N"
+    else
+        echo -e "$2 is ...$G SUCCESS..$N"
+
+}
+
+CHECK_ROOT
+
+read packagename
+
+for package in $packagename
+do
+    dnf installed $package
+    if [ $? -ne 0 ]
+    then
+        echo "$package is not installed, going to install it.."
+        dnf install $package -y
+        VALIDATE $? "Installing $package"
+    else
+        echo "$package is already installed..nothing to do"
+    fi
+done
