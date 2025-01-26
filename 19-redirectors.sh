@@ -5,7 +5,7 @@ SCRIPT_NAME=$(echo $0 | cut -d "." -f1)
 DATE=$(date +%Y-%m-%d_%T)
 LOG_FILE="$LOGS_FOLDER/$SCRIPT_NAME-$DATE.log"
 
-mkdir -p $LOGS_FOLDER
+sudo mkdir -p $LOGS_FOLDER
 
 
 USER_ID=$(id -u)
