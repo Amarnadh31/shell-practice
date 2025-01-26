@@ -28,7 +28,7 @@ VALIDATE(){
         echo -e "$2 is ...$R FAILED $N"
     else
         echo -e "$2 is ...$G SUCCESS..$N"
-
+    fi
 }
 
 CHECK_ROOT
