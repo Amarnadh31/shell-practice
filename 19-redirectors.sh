@@ -19,4 +19,5 @@ CHECK_ROOT(){
     then
         echo -e "$R please run with root user $N"
         exit 1
+    fi
 }
