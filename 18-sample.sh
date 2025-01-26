@@ -19,7 +19,8 @@ then
     else
         echo "mysql installed successfully.."
 else
-    echo "mysql is already installed, nothing to do
+    echo "mysql is already installed, nothing to do..."
+fi
 
 
 
